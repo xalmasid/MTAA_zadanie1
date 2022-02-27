@@ -1,0 +1,597 @@
+
+23:39:32:INFO:>>> REGISTER sip:172.20.10.11:5060 SIP/2.0
+23:39:32:INFO:From: ?@172.20.10.11 - Contact: 172.20.10.11:50440
+23:39:32:INFO:<<< SIP/2.0 200 0K
+23:39:32:INFO:>>> PUBLISH sip:?@172.20.10.11:5060 SIP/2.0
+23:39:32:INFO:<<< SIP/2.0 200 0K
+16:41:55:INFO:Sun, 27 Feb 2022 16:41:55 
+16:41:55:INFO:DESKTOP-8UVPMTM
+16:41:55:INFO:192.168.0.149
+16:48:58:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+16:48:58:INFO:From: ?@192.168.0.149 - Contact: 192.168.0.149:54552
+16:48:58:INFO:<<< SIP/2.0 200 0K
+16:48:58:INFO:>>> PUBLISH sip:?@192.168.0.149 SIP/2.0
+16:48:58:INFO:<<< SIP/2.0 200 0K
+17:52:41:INFO:Sun, 27 Feb 2022 17:52:41 
+17:52:41:INFO:DESKTOP-8UVPMTM
+17:52:41:INFO:172.20.10.11
+17:52:47:INFO:>>> REGISTER sip:172.20.10.11 SIP/2.0
+17:52:47:INFO:From: ?@172.20.10.11 - Contact: 172.20.10.11:64437
+17:52:47:INFO:<<< SIP/2.0 200 0K
+17:52:47:INFO:>>> PUBLISH sip:?@172.20.10.11 SIP/2.0
+17:52:47:INFO:<<< SIP/2.0 200 0K
+17:54:17:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+17:54:17:INFO:From: dano@192.168.0.149 - Contact: 192.168.0.149:65028
+17:54:17:INFO:<<< SIP/2.0 200 0K
+17:54:17:INFO:>>> PUBLISH sip:dano@192.168.0.149 SIP/2.0
+17:54:17:INFO:<<< SIP/2.0 200 0K
+17:54:21:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+17:54:21:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:62246
+17:54:21:INFO:<<< SIP/2.0 200 0K
+17:54:21:INFO:>>> PUBLISH sip:pc1@192.168.0.149:5060 SIP/2.0
+17:54:21:INFO:<<< SIP/2.0 200 0K
+17:54:24:INFO:Sun, 27 Feb 2022 17:54:24 
+17:54:24:INFO:DESKTOP-8UVPMTM
+17:54:24:INFO:192.168.0.149
+17:54:33:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+17:54:33:INFO:From: dano@192.168.0.149 - Contact: 192.168.0.149:65028
+17:54:33:INFO:<<< SIP/2.0 200 0K
+17:54:39:INFO:>>> INVITE sip:pc1@192.168.0.149 SIP/2.0
+17:54:39:INFO:destination pc1@192.168.0.149
+17:54:39:INFO:<<< SIP/2.0 480 Docasne nedostupne
+17:54:39:INFO:>>> ACK sip:pc1@192.168.0.149 SIP/2.0
+17:54:39:INFO:destination pc1@192.168.0.149
+17:54:50:INFO:>>> INVITE sip:pc1@192.168.0.149 SIP/2.0
+17:54:50:INFO:destination pc1@192.168.0.149
+17:54:50:INFO:<<< SIP/2.0 480 Docasne nedostupne
+17:54:50:INFO:>>> ACK sip:pc1@192.168.0.149 SIP/2.0
+17:54:50:INFO:destination pc1@192.168.0.149
+17:54:57:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+17:54:57:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:62246
+17:54:57:INFO:<<< SIP/2.0 200 0K
+17:55:08:INFO:>>> INVITE sip:dano@192.168.0.149:5060 SIP/2.0
+17:55:08:INFO:destination dano@192.168.0.149
+17:55:08:INFO:<<< INVITE sip:dano@192.168.0.149:5060 SIP/2.0
+17:55:08:INFO:>>> SIP/2.0 100 Trying
+17:55:08:INFO:<<< SIP/2.0 100 Trying
+17:55:10:INFO:>>> SIP/2.0 180 Ringing
+17:55:10:INFO:<<< SIP/2.0 180 Ringing
+17:55:12:INFO:>>> SIP/2.0 603 Decline
+17:55:12:INFO:<<< SIP/2.0 603 Decline
+17:55:12:INFO:>>> ACK sip:dano@192.168.0.149:5060 SIP/2.0
+17:55:12:INFO:destination dano@192.168.0.149
+17:55:12:INFO:<<< ACK sip:dano@192.168.0.149:5060 SIP/2.0
+17:55:18:INFO:>>> INVITE sip:pc1@192.168.0.149 SIP/2.0
+17:55:18:INFO:destination pc1@192.168.0.149
+17:55:18:INFO:<<< INVITE sip:pc1@192.168.0.149 SIP/2.0
+17:55:18:INFO:>>> SIP/2.0 100 Trying
+17:55:18:INFO:<<< SIP/2.0 100 Trying
+17:55:19:INFO:>>> SIP/2.0 180 Ringing
+17:55:19:INFO:<<< SIP/2.0 180 Ringing
+17:55:24:INFO:>>> SIP/2.0 603 Decline
+17:55:24:INFO:<<< SIP/2.0 603 Decline
+17:55:24:INFO:>>> ACK sip:pc1@192.168.0.149 SIP/2.0
+17:55:24:INFO:destination pc1@192.168.0.149
+17:55:24:INFO:<<< ACK sip:pc1@192.168.0.149 SIP/2.0
+17:55:37:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+17:55:37:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:49673
+17:55:37:INFO:<<< SIP/2.0 200 0K
+18:02:40:INFO:>>> PUBLISH sip:pc1@192.168.0.149:5060 SIP/2.0
+18:02:40:INFO:<<< SIP/2.0 200 0K
+18:02:40:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+18:02:40:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:62246
+18:02:40:INFO:<<< SIP/2.0 200 0K
+18:03:17:INFO:>>> PUBLISH sip:dano@192.168.0.149 SIP/2.0
+18:03:17:INFO:<<< SIP/2.0 200 0K
+18:03:33:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:03:33:INFO:From: dano@192.168.0.149 - Contact: 192.168.0.149:65028
+18:03:33:INFO:<<< SIP/2.0 200 0K
+18:04:33:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+18:04:33:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:57130
+18:04:33:INFO:<<< SIP/2.0 200 0K
+18:04:33:INFO:>>> PUBLISH sip:pc1@192.168.0.149:5060 SIP/2.0
+18:04:33:INFO:<<< SIP/2.0 200 0K
+18:12:33:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:12:33:INFO:From: dano@192.168.0.149 - Contact: 192.168.0.149:65028
+18:12:33:INFO:<<< SIP/2.0 200 0K
+18:13:33:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+18:13:33:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:57130
+18:13:33:INFO:<<< SIP/2.0 200 0K
+18:13:33:INFO:>>> PUBLISH sip:pc1@192.168.0.149:5060 SIP/2.0
+18:13:33:INFO:<<< SIP/2.0 200 0K
+18:21:33:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:21:33:INFO:From: dano@192.168.0.149 - Contact: 192.168.0.149:65028
+18:21:33:INFO:<<< SIP/2.0 200 0K
+18:22:33:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+18:22:33:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:57130
+18:22:33:INFO:<<< SIP/2.0 200 0K
+18:22:33:INFO:>>> PUBLISH sip:pc1@192.168.0.149:5060 SIP/2.0
+18:22:33:INFO:<<< SIP/2.0 200 0K
+18:23:02:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:23:02:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:54632
+18:23:02:INFO:<<< SIP/2.0 200 0K
+18:23:02:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:23:02:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:54632
+18:23:02:INFO:<<< SIP/2.0 200 0K
+18:23:12:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:23:12:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:55271
+18:23:12:INFO:<<< SIP/2.0 200 0K
+18:23:12:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:23:12:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:55271
+18:23:12:INFO:<<< SIP/2.0 200 0K
+18:23:35:INFO:>>> INVITE sip:dano@192.168.0.149:5060 SIP/2.0
+18:23:35:INFO:destination dano@192.168.0.149
+18:23:35:INFO:<<< INVITE sip:dano@192.168.0.149:5060 SIP/2.0
+18:23:35:INFO:>>> SIP/2.0 100 Trying
+18:23:35:INFO:<<< SIP/2.0 100 Trying
+18:23:37:INFO:>>> SIP/2.0 180 Ringing
+18:23:37:INFO:<<< SIP/2.0 180 Ringing
+18:23:37:INFO:>>> INVITE sip:dab@192.168.0.149:5060 SIP/2.0
+18:23:37:INFO:destination dab@192.168.0.149
+18:23:37:INFO:<<< INVITE sip:dab@192.168.0.149:5060 SIP/2.0
+18:23:37:INFO:>>> SIP/2.0 100 Trying
+18:23:37:INFO:<<< SIP/2.0 100 Trying
+18:23:38:INFO:>>> SIP/2.0 180 Ringing
+18:23:38:INFO:<<< SIP/2.0 180 Ringing
+18:23:42:INFO:>>> SIP/2.0 200 Ok
+18:23:42:INFO:<<< SIP/2.0 200 Ok
+18:23:43:INFO:>>> SIP/2.0 200 Ok
+18:23:43:INFO:<<< SIP/2.0 200 Ok
+18:23:43:INFO:>>> ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:23:43:INFO:destination dano@192.168.0.149
+18:23:43:INFO:<<< ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:23:43:INFO:>>> ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:23:43:INFO:destination dano@192.168.0.149
+18:23:43:INFO:<<< ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:23:45:INFO:>>> SIP/2.0 200 Ok
+18:23:45:INFO:<<< SIP/2.0 200 Ok
+18:23:45:INFO:>>> SUBSCRIBE sip:pc1@192.168.0.229;conf-id=lardz;transport=udp SIP/2.0
+18:23:45:INFO:<<< SIP/2.0 200 0K
+18:23:45:INFO:>>> ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:23:45:INFO:destination dab@192.168.0.149
+18:23:45:INFO:<<< ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:23:48:INFO:>>> INVITE sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:23:48:INFO:destination dano@192.168.0.149
+18:23:48:INFO:<<< INVITE sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:23:48:INFO:>>> SIP/2.0 100 Trying
+18:23:48:INFO:<<< SIP/2.0 100 Trying
+18:23:49:INFO:>>> SIP/2.0 200 Ok
+18:23:49:INFO:<<< SIP/2.0 200 Ok
+18:23:49:INFO:>>> ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:23:49:INFO:destination dano@192.168.0.149
+18:23:49:INFO:<<< ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:23:51:INFO:>>> INVITE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:23:51:INFO:destination dab@192.168.0.149
+18:23:51:INFO:<<< INVITE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:23:51:INFO:>>> SIP/2.0 100 Trying
+18:23:51:INFO:<<< SIP/2.0 100 Trying
+18:23:52:INFO:>>> SIP/2.0 200 Ok
+18:23:52:INFO:<<< SIP/2.0 200 Ok
+18:23:52:INFO:>>> ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:23:52:INFO:destination dab@192.168.0.149
+18:23:52:INFO:<<< ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:01:INFO:>>> BYE sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:24:01:INFO:destination dano@192.168.0.149
+18:24:01:INFO:<<< BYE sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:24:01:INFO:>>> SIP/2.0 200 Ok
+18:24:01:INFO:<<< SIP/2.0 200 Ok
+18:24:01:INFO:>>> BYE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:01:INFO:destination dab@192.168.0.149
+18:24:01:INFO:<<< BYE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:01:INFO:>>> BYE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:01:INFO:destination dab@192.168.0.149
+18:24:01:INFO:<<< BYE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:02:INFO:>>> SIP/2.0 200 Ok
+18:24:02:INFO:<<< SIP/2.0 200 Ok
+18:24:02:INFO:>>> SUBSCRIBE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:02:INFO:<<< SIP/2.0 200 0K
+18:24:02:INFO:>>> SIP/2.0 200 Ok
+18:24:02:INFO:<<< SIP/2.0 200 Ok
+18:24:22:INFO:>>> INVITE sip:dano@192.168.0.149 SIP/2.0
+18:24:22:INFO:destination dano@192.168.0.149
+18:24:22:INFO:<<< INVITE sip:dano@192.168.0.149 SIP/2.0
+18:24:22:INFO:>>> SIP/2.0 100 Trying
+18:24:22:INFO:<<< SIP/2.0 100 Trying
+18:24:22:INFO:>>> SIP/2.0 486 Busy here
+18:24:22:INFO:<<< SIP/2.0 486 Busy here
+18:24:22:INFO:>>> ACK sip:dano@192.168.0.149 SIP/2.0
+18:24:22:INFO:destination dano@192.168.0.149
+18:24:22:INFO:<<< ACK sip:dano@192.168.0.149 SIP/2.0
+18:24:23:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:24:23:INFO:destination dab@192.168.0.149
+18:24:23:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:24:23:INFO:>>> SIP/2.0 100 Trying
+18:24:23:INFO:<<< SIP/2.0 100 Trying
+18:24:24:INFO:>>> SIP/2.0 180 Ringing
+18:24:24:INFO:<<< SIP/2.0 180 Ringing
+18:24:25:INFO:>>> SIP/2.0 200 Ok
+18:24:25:INFO:<<< SIP/2.0 200 Ok
+18:24:25:INFO:>>> SUBSCRIBE sip:dano@192.168.0.149;conf-id=ZZCfu;transport=udp SIP/2.0
+18:24:25:INFO:<<< SIP/2.0 200 0K
+18:24:26:INFO:>>> SIP/2.0 200 Ok
+18:24:26:INFO:<<< SIP/2.0 200 Ok
+18:24:26:INFO:>>> ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:26:INFO:destination dab@192.168.0.149
+18:24:26:INFO:<<< ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:26:INFO:>>> ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:26:INFO:destination dab@192.168.0.149
+18:24:26:INFO:<<< ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:30:INFO:>>> INVITE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:30:INFO:destination dab@192.168.0.149
+18:24:30:INFO:<<< INVITE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:30:INFO:>>> SIP/2.0 100 Trying
+18:24:30:INFO:<<< SIP/2.0 100 Trying
+18:24:31:INFO:>>> SIP/2.0 200 Ok
+18:24:31:INFO:<<< SIP/2.0 200 Ok
+18:24:31:INFO:>>> ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:31:INFO:destination dab@192.168.0.149
+18:24:31:INFO:<<< ACK sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:47:INFO:>>> BYE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:47:INFO:destination dab@192.168.0.149
+18:24:47:INFO:<<< BYE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:47:INFO:>>> BYE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:47:INFO:destination dab@192.168.0.149
+18:24:47:INFO:<<< BYE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:48:INFO:>>> SIP/2.0 200 Ok
+18:24:48:INFO:<<< SIP/2.0 200 Ok
+18:24:48:INFO:>>> SUBSCRIBE sip:dab@192.168.0.231:55271;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:24:48:INFO:<<< SIP/2.0 200 0K
+18:24:48:INFO:>>> SIP/2.0 200 Ok
+18:24:48:INFO:<<< SIP/2.0 200 Ok
+18:25:01:INFO:>>> INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:25:01:INFO:destination pc1@192.168.0.149
+18:25:01:INFO:<<< INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:25:01:INFO:>>> SIP/2.0 100 Trying
+18:25:01:INFO:<<< SIP/2.0 100 Trying
+18:25:02:INFO:>>> CANCEL sip:pc1@192.168.0.149 SIP/2.0
+18:25:02:INFO:destination pc1@192.168.0.149
+18:25:02:INFO:<<< CANCEL sip:pc1@192.168.0.149 SIP/2.0
+18:25:03:INFO:>>> CANCEL sip:pc1@192.168.0.149 SIP/2.0
+18:25:03:INFO:destination pc1@192.168.0.149
+18:25:03:INFO:<<< CANCEL sip:pc1@192.168.0.149 SIP/2.0
+18:25:03:INFO:>>> SIP/2.0 180 Ringing
+18:25:03:INFO:<<< SIP/2.0 180 Ringing
+18:25:03:INFO:>>> SIP/2.0 200 Ok
+18:25:03:INFO:<<< SIP/2.0 200 Ok
+18:25:03:INFO:>>> SIP/2.0 487 Request terminated
+18:25:03:INFO:<<< SIP/2.0 487 Request terminated
+18:25:03:INFO:>>> ACK sip:pc1@192.168.0.149 SIP/2.0
+18:25:03:INFO:destination pc1@192.168.0.149
+18:25:03:INFO:<<< ACK sip:pc1@192.168.0.149 SIP/2.0
+18:25:03:INFO:>>> SIP/2.0 481 Call/transaction does not exist
+18:25:03:INFO:<<< SIP/2.0 481 Call/transaction does not exist
+18:25:14:INFO:>>> INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:25:14:INFO:destination pc1@192.168.0.149
+18:25:14:INFO:<<< INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:25:14:INFO:>>> SIP/2.0 100 Trying
+18:25:14:INFO:<<< SIP/2.0 100 Trying
+18:25:16:INFO:>>> SIP/2.0 180 Ringing
+18:25:16:INFO:<<< SIP/2.0 180 Ringing
+18:25:18:INFO:>>> SIP/2.0 200 Ok
+18:25:18:INFO:<<< SIP/2.0 200 Ok
+18:25:18:INFO:>>> SUBSCRIBE sip:dano@192.168.0.149;conf-id=ZZCfu;transport=udp SIP/2.0
+18:25:18:INFO:<<< SIP/2.0 200 0K
+18:25:19:INFO:>>> SIP/2.0 200 Ok
+18:25:19:INFO:<<< SIP/2.0 200 Ok
+18:25:19:INFO:>>> ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:19:INFO:destination pc1@192.168.0.149
+18:25:19:INFO:<<< ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:19:INFO:>>> ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:19:INFO:destination pc1@192.168.0.149
+18:25:19:INFO:<<< ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:21:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:25:21:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:53291
+18:25:21:INFO:<<< SIP/2.0 200 0K
+18:25:24:INFO:>>> INVITE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:24:INFO:destination pc1@192.168.0.149
+18:25:24:INFO:<<< INVITE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:24:INFO:>>> SIP/2.0 100 Trying
+18:25:24:INFO:<<< SIP/2.0 100 Trying
+18:25:25:INFO:>>> SIP/2.0 200 Ok
+18:25:25:INFO:<<< SIP/2.0 200 Ok
+18:25:25:INFO:>>> ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:25:INFO:destination pc1@192.168.0.149
+18:25:25:INFO:<<< ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:39:INFO:>>> BYE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:39:INFO:destination pc1@192.168.0.149
+18:25:39:INFO:<<< BYE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:39:INFO:>>> SIP/2.0 200 Ok
+18:25:39:INFO:<<< SIP/2.0 200 Ok
+18:25:39:INFO:>>> SUBSCRIBE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:25:39:INFO:<<< SIP/2.0 200 0K
+18:25:57:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:25:57:INFO:destination dab@192.168.0.149
+18:25:57:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:25:57:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:25:57:INFO:destination dab@192.168.0.149
+18:25:57:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:25:57:INFO:>>> INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:25:57:INFO:destination pc1@192.168.0.149
+18:25:57:INFO:<<< INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:25:58:INFO:>>> SIP/2.0 100 Trying
+18:25:58:INFO:<<< SIP/2.0 100 Trying
+18:25:58:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:25:58:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:53351
+18:25:58:INFO:<<< SIP/2.0 200 0K
+18:25:58:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:25:58:INFO:destination dab@192.168.0.149
+18:25:58:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:25:58:INFO:>>> SIP/2.0 100 Trying
+18:25:58:INFO:<<< SIP/2.0 100 Trying
+18:25:59:INFO:>>> SIP/2.0 180 Ringing
+18:25:59:INFO:<<< SIP/2.0 180 Ringing
+18:26:00:INFO:>>> SIP/2.0 180 Ringing
+18:26:00:INFO:<<< SIP/2.0 180 Ringing
+18:26:01:INFO:>>> SIP/2.0 200 Ok
+18:26:01:INFO:<<< SIP/2.0 200 Ok
+18:26:01:INFO:>>> SUBSCRIBE sip:dano@192.168.0.149;conf-id=ZZCfu;transport=udp SIP/2.0
+18:26:01:INFO:<<< SIP/2.0 200 0K
+18:26:01:INFO:>>> SIP/2.0 200 Ok
+18:26:01:INFO:<<< SIP/2.0 200 Ok
+18:26:01:INFO:>>> ACK sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:01:INFO:destination dab@192.168.0.149
+18:26:01:INFO:<<< ACK sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:01:INFO:>>> ACK sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:01:INFO:destination dab@192.168.0.149
+18:26:01:INFO:<<< ACK sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:02:INFO:>>> SIP/2.0 200 Ok
+18:26:02:INFO:<<< SIP/2.0 200 Ok
+18:26:03:INFO:>>> ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:26:03:INFO:destination pc1@192.168.0.149
+18:26:03:INFO:<<< ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:26:03:INFO:>>> SUBSCRIBE sip:dano@192.168.0.149;conf-id=ZZCfu;transport=udp SIP/2.0
+18:26:03:INFO:<<< SIP/2.0 200 0K
+18:26:06:INFO:>>> INVITE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:06:INFO:destination dab@192.168.0.149
+18:26:06:INFO:<<< INVITE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:06:INFO:>>> INVITE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:06:INFO:destination dab@192.168.0.149
+18:26:06:INFO:<<< INVITE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:07:INFO:>>> SIP/2.0 100 Trying
+18:26:07:INFO:<<< SIP/2.0 100 Trying
+18:26:07:INFO:>>> SIP/2.0 100 Trying
+18:26:07:INFO:<<< SIP/2.0 100 Trying
+18:26:07:INFO:>>> SIP/2.0 200 Ok
+18:26:07:INFO:<<< SIP/2.0 200 Ok
+18:26:07:INFO:>>> ACK sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:07:INFO:destination dab@192.168.0.149
+18:26:07:INFO:<<< ACK sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:09:INFO:>>> INVITE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:26:09:INFO:destination pc1@192.168.0.149
+18:26:09:INFO:<<< INVITE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:26:09:INFO:>>> SIP/2.0 100 Trying
+18:26:09:INFO:<<< SIP/2.0 100 Trying
+18:26:10:INFO:>>> SIP/2.0 200 Ok
+18:26:10:INFO:<<< SIP/2.0 200 Ok
+18:26:10:INFO:>>> ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:26:10:INFO:destination pc1@192.168.0.149
+18:26:10:INFO:<<< ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:26:28:INFO:>>> INVITE sip:dano@192.168.0.149:65028;conf-id=ZZCfu;transport=udp SIP/2.0
+18:26:28:INFO:destination dano@192.168.0.149
+18:26:28:INFO:<<< INVITE sip:dano@192.168.0.149:65028;conf-id=ZZCfu;transport=udp SIP/2.0
+18:26:28:INFO:>>> SIP/2.0 100 Trying
+18:26:28:INFO:<<< SIP/2.0 100 Trying
+18:26:29:INFO:>>> SIP/2.0 200 Ok
+18:26:29:INFO:<<< SIP/2.0 200 Ok
+18:26:29:INFO:>>> ACK sip:dano@192.168.0.149:65028;conf-id=ZZCfu;transport=udp SIP/2.0
+18:26:29:INFO:destination dano@192.168.0.149
+18:26:29:INFO:<<< ACK sip:dano@192.168.0.149:65028;conf-id=ZZCfu;transport=udp SIP/2.0
+18:26:31:INFO:>>> BYE sip:dano@192.168.0.149:65028;conf-id=ZZCfu;transport=udp SIP/2.0
+18:26:31:INFO:destination dano@192.168.0.149
+18:26:31:INFO:<<< BYE sip:dano@192.168.0.149:65028;conf-id=ZZCfu;transport=udp SIP/2.0
+18:26:31:INFO:>>> SIP/2.0 200 Ok
+18:26:31:INFO:<<< SIP/2.0 200 Ok
+18:26:31:INFO:>>> SUBSCRIBE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:26:31:INFO:<<< SIP/2.0 200 0K
+18:26:38:INFO:>>> SUBSCRIBE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:26:38:INFO:<<< SIP/2.0 200 0K
+18:30:33:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:30:33:INFO:From: dano@192.168.0.149 - Contact: 192.168.0.149:65028
+18:30:33:INFO:<<< SIP/2.0 200 0K
+18:31:33:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+18:31:33:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:57130
+18:31:33:INFO:<<< SIP/2.0 200 0K
+18:31:33:INFO:>>> PUBLISH sip:pc1@192.168.0.149:5060 SIP/2.0
+18:31:33:INFO:<<< SIP/2.0 200 0K
+18:39:33:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:39:33:INFO:From: dano@192.168.0.149 - Contact: 192.168.0.149:65028
+18:39:33:INFO:<<< SIP/2.0 200 0K
+18:40:33:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+18:40:33:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:57130
+18:40:33:INFO:<<< SIP/2.0 200 0K
+18:40:33:INFO:>>> PUBLISH sip:pc1@192.168.0.149:5060 SIP/2.0
+18:40:33:INFO:<<< SIP/2.0 200 0K
+18:46:40:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:40:INFO:destination dab@192.168.0.149
+18:46:40:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:40:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:40:INFO:destination dab@192.168.0.149
+18:46:40:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:41:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:41:INFO:destination dab@192.168.0.149
+18:46:41:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:43:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:43:INFO:destination dab@192.168.0.149
+18:46:43:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:48:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:48:INFO:destination dab@192.168.0.149
+18:46:48:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:52:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:52:INFO:destination dab@192.168.0.149
+18:46:52:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:55:INFO:>>> INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:46:55:INFO:destination pc1@192.168.0.149
+18:46:55:INFO:<<< INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:46:55:INFO:>>> SIP/2.0 100 Trying
+18:46:55:INFO:<<< SIP/2.0 100 Trying
+18:46:56:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:56:INFO:destination dab@192.168.0.149
+18:46:56:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:56:INFO:>>> SIP/2.0 180 Ringing
+18:46:56:INFO:<<< SIP/2.0 180 Ringing
+18:46:59:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:46:59:INFO:destination dab@192.168.0.149
+18:46:59:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:47:02:INFO:>>> SIP/2.0 200 Ok
+18:47:02:INFO:<<< SIP/2.0 200 Ok
+18:47:03:INFO:>>> ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:47:03:INFO:destination pc1@192.168.0.149
+18:47:03:INFO:<<< ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:47:04:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:47:04:INFO:destination dab@192.168.0.149
+18:47:04:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:47:07:INFO:>>> BYE sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:47:07:INFO:destination dano@192.168.0.149
+18:47:07:INFO:<<< BYE sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:47:07:INFO:>>> SIP/2.0 200 Ok
+18:47:07:INFO:<<< SIP/2.0 200 Ok
+18:47:08:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:47:08:INFO:destination dab@192.168.0.149
+18:47:08:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:47:12:INFO:>>> BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:47:12:INFO:destination dab@192.168.0.149
+18:47:12:INFO:<<< BYE sip:dab@192.168.0.231:53351;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:47:31:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:31:INFO:destination dab@192.168.0.149
+18:47:31:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:32:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:32:INFO:destination dab@192.168.0.149
+18:47:32:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:33:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:33:INFO:destination dab@192.168.0.149
+18:47:33:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:35:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:35:INFO:destination dab@192.168.0.149
+18:47:35:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:35:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:47:35:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:62965
+18:47:35:INFO:<<< SIP/2.0 200 0K
+18:47:35:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:47:35:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:62965
+18:47:35:INFO:<<< SIP/2.0 200 0K
+18:47:39:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:39:INFO:destination dab@192.168.0.149
+18:47:39:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:47:39:INFO:>>> SIP/2.0 100 Trying
+18:47:39:INFO:<<< SIP/2.0 100 Trying
+18:47:39:INFO:>>> SIP/2.0 180 Ringing
+18:47:39:INFO:<<< SIP/2.0 180 Ringing
+18:47:41:INFO:>>> SIP/2.0 603 Decline
+18:47:41:INFO:<<< SIP/2.0 603 Decline
+18:47:41:INFO:>>> ACK sip:dab@192.168.0.149 SIP/2.0
+18:47:41:INFO:destination dab@192.168.0.149
+18:47:41:INFO:<<< ACK sip:dab@192.168.0.149 SIP/2.0
+18:47:42:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:47:42:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:64974
+18:47:42:INFO:<<< SIP/2.0 200 0K
+18:48:01:INFO:>>> INVITE sip:dano@192.168.0.149 SIP/2.0
+18:48:01:INFO:destination dano@192.168.0.149
+18:48:01:INFO:<<< INVITE sip:dano@192.168.0.149 SIP/2.0
+18:48:01:INFO:>>> SIP/2.0 100 Trying
+18:48:01:INFO:<<< SIP/2.0 100 Trying
+18:48:03:INFO:>>> SIP/2.0 180 Ringing
+18:48:03:INFO:<<< SIP/2.0 180 Ringing
+18:48:05:INFO:>>> SIP/2.0 200 Ok
+18:48:05:INFO:<<< SIP/2.0 200 Ok
+18:48:05:INFO:>>> ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:48:05:INFO:destination dano@192.168.0.149
+18:48:05:INFO:<<< ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:48:07:INFO:>>> INVITE sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:48:07:INFO:destination dano@192.168.0.149
+18:48:07:INFO:<<< INVITE sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:48:08:INFO:>>> SIP/2.0 100 Trying
+18:48:08:INFO:<<< SIP/2.0 100 Trying
+18:48:09:INFO:>>> SIP/2.0 200 Ok
+18:48:09:INFO:<<< SIP/2.0 200 Ok
+18:48:09:INFO:>>> ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:48:09:INFO:destination dano@192.168.0.149
+18:48:09:INFO:<<< ACK sip:dano@192.168.0.149:65028;transport=udp SIP/2.0
+18:48:10:INFO:>>> BYE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:10:INFO:destination dab@192.168.0.149
+18:48:10:INFO:<<< BYE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:10:INFO:>>> SIP/2.0 200 Ok
+18:48:10:INFO:<<< SIP/2.0 200 Ok
+18:48:32:INFO:>>> INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:48:32:INFO:destination pc1@192.168.0.149
+18:48:32:INFO:<<< INVITE sip:pc1@192.168.0.149 SIP/2.0
+18:48:32:INFO:>>> SIP/2.0 100 Trying
+18:48:32:INFO:<<< SIP/2.0 100 Trying
+18:48:33:INFO:>>> INVITE sip:dab@192.168.0.149 SIP/2.0
+18:48:33:INFO:destination dab@192.168.0.149
+18:48:33:INFO:<<< INVITE sip:dab@192.168.0.149 SIP/2.0
+18:48:33:INFO:>>> SIP/2.0 100 Trying
+18:48:33:INFO:<<< SIP/2.0 100 Trying
+18:48:33:INFO:>>> SIP/2.0 180 Ringing
+18:48:33:INFO:<<< SIP/2.0 180 Ringing
+18:48:33:INFO:>>> SIP/2.0 180 Ringing
+18:48:33:INFO:<<< SIP/2.0 180 Ringing
+18:48:34:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:48:34:INFO:From: dano@192.168.0.149 - Contact: 192.168.0.149:65028
+18:48:34:INFO:<<< SIP/2.0 200 0K
+18:48:35:INFO:>>> SIP/2.0 200 Ok
+18:48:35:INFO:<<< SIP/2.0 200 Ok
+18:48:35:INFO:>>> SUBSCRIBE sip:dano@192.168.0.149;conf-id=ZZCfu;transport=udp SIP/2.0
+18:48:35:INFO:<<< SIP/2.0 200 0K
+18:48:35:INFO:>>> SIP/2.0 200 Ok
+18:48:35:INFO:<<< SIP/2.0 200 Ok
+18:48:36:INFO:>>> ACK sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:36:INFO:destination dab@192.168.0.149
+18:48:36:INFO:<<< ACK sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:36:INFO:>>> ACK sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:36:INFO:destination dab@192.168.0.149
+18:48:36:INFO:<<< ACK sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:39:INFO:>>> SIP/2.0 200 Ok
+18:48:39:INFO:<<< SIP/2.0 200 Ok
+18:48:39:INFO:>>> ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:48:39:INFO:destination pc1@192.168.0.149
+18:48:39:INFO:<<< ACK sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:48:40:INFO:>>> SUBSCRIBE sip:dano@192.168.0.149;conf-id=ZZCfu;transport=udp SIP/2.0
+18:48:40:INFO:<<< SIP/2.0 200 0K
+18:48:40:INFO:>>> INVITE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:40:INFO:destination dab@192.168.0.149
+18:48:40:INFO:<<< INVITE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:41:INFO:>>> INVITE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:41:INFO:destination dab@192.168.0.149
+18:48:41:INFO:<<< INVITE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:42:INFO:>>> INVITE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:42:INFO:destination dab@192.168.0.149
+18:48:42:INFO:<<< INVITE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:42:INFO:>>> SIP/2.0 100 Trying
+18:48:42:INFO:<<< SIP/2.0 100 Trying
+18:48:42:INFO:>>> SIP/2.0 200 Ok
+18:48:42:INFO:<<< SIP/2.0 200 Ok
+18:48:42:INFO:>>> ACK sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:42:INFO:destination dab@192.168.0.149
+18:48:42:INFO:<<< ACK sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:43:INFO:>>> SIP/2.0 200 Ok
+18:48:43:INFO:<<< SIP/2.0 200 Ok
+18:48:43:INFO:>>> ACK sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:43:INFO:destination dab@192.168.0.149
+18:48:43:INFO:<<< ACK sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:43:INFO:>>> BYE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:48:43:INFO:destination pc1@192.168.0.149
+18:48:43:INFO:<<< BYE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:48:43:INFO:>>> SIP/2.0 200 Ok
+18:48:43:INFO:<<< SIP/2.0 200 Ok
+18:48:43:INFO:>>> BYE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:43:INFO:destination dab@192.168.0.149
+18:48:43:INFO:<<< BYE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:43:INFO:>>> SIP/2.0 200 Ok
+18:48:43:INFO:<<< SIP/2.0 200 Ok
+18:48:43:INFO:>>> SUBSCRIBE sip:pc1@192.168.0.229:57130;transport=udp SIP/2.0
+18:48:43:INFO:<<< SIP/2.0 200 0K
+18:48:43:INFO:>>> SUBSCRIBE sip:dab@192.168.0.231:64974;pn-prid=EF4B2425CEE47F744D978BDF2EA5155918334AE4A6419EAA9A30B065564AE306:voip&3708A3B066321C5541D76D32DC1B06AC38BEA83879B635517084069FF0F4E54C:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip&remote;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:48:43:INFO:<<< SIP/2.0 200 0K
+18:49:33:INFO:>>> REGISTER sip:192.168.0.149:5060 SIP/2.0
+18:49:33:INFO:From: pc1@192.168.0.149 - Contact: 192.168.0.229:57130
+18:49:33:INFO:<<< SIP/2.0 200 0K
+18:49:33:INFO:>>> PUBLISH sip:pc1@192.168.0.149:5060 SIP/2.0
+18:49:33:INFO:<<< SIP/2.0 200 0K
+18:52:33:INFO:>>> REGISTER sip:192.168.0.149 SIP/2.0
+18:52:33:INFO:From: dab@192.168.0.149 - Contact: 192.168.0.231:58647
+18:52:33:INFO:<<< SIP/2.0 200 0K
+18:54:07:INFO:>>> REGISTER sip:172.20.10.11 SIP/2.0
+18:54:07:INFO:From: ?@172.20.10.11 - Contact: 172.20.10.11:52315
+18:54:07:INFO:<<< SIP/2.0 200 0K
+18:54:07:INFO:>>> PUBLISH sip:?@172.20.10.11 SIP/2.0
+18:54:07:INFO:<<< SIP/2.0 200 0K
